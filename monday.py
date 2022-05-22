@@ -1,4 +1,4 @@
-def Mоnday():
+def Monday():
 	import openpyxl
 
 
@@ -501,4 +501,3 @@ def Mоnday():
 				room = sheet[f'GV{num}'].value
 				group = sheet[f'GS24'].value
 				print(f'{teacher_name} время: {time}, дисциплина: {lesson}, аудитория: {room}, группа: {group}')
-#Mоnday()
